@@ -21,8 +21,8 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <LinearLayout
-        android:layout_width="196dp"
-        android:layout_height="413dp"
+        android:layout_width="277dp"
+        android:layout_height="418dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,36 +33,47 @@
             android:id="@+id/btn_mon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="showTimeTable"
             android:text="Monday" />
 
         <Button
             android:id="@+id/btn_tues"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="showTimeTable"
             android:text="Tuesday" />
 
         <Button
             android:id="@+id/btn_we"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="showTimeTable"
             android:text="Wednesday" />
 
         <Button
             android:id="@+id/btn_thurs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="showTimeTable"
             android:text="Thursday" />
 
         <Button
             android:id="@+id/btn_fri"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="showTimeTable"
             android:text="Friday" />
 
         <Button
             android:id="@+id/btn_sat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:onClick="showTimeTable"
             android:text="Saturday" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
