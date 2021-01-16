@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">woc3.0-android-mid-evaluation-Rutvi-Sukhadia</string>
+    <string name="app_name">Time table App</string>
+    <string name="header">Time table</string>
 </resources>
